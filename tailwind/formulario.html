@@ -1,0 +1,33 @@
+<div class="mx-auto max-w-6xl px-4 py-12">
+  <h2 class="text-xl font-semibold mb-6">Fale com a farmácia</h2>
+  <form class="grid gap-4 md:grid-cols-2">
+    <div>
+      <label for="nome" class="block mb-1 font-medium">Nome completo</label>
+      <input type="text" id="nome" name="nome" required class="w-full rounded border border-slate-300 px-3 py-2">
+    </div>
+    <div>
+      <label for="email" class="block mb-1 font-medium">E-mail</label>
+      <input type="email" id="email" name="email" required class="w-full rounded border border-slate-300 px-3 py-2">
+    </div>
+    <div>
+      <label for="telefone" class="block mb-1 font-medium">Telefone</label>
+      <input type="tel" id="telefone" name="telefone" required class="w-full rounded border border-slate-300 px-3 py-2">
+    </div>
+    <div>
+      <label for="assunto" class="block mb-1 font-medium">Assunto</label>
+      <select id="assunto" name="assunto" required class="w-full rounded border border-slate-300 px-3 py-2">
+        <option value="">Selecione</option>
+        <option>Dúvida sobre medicamento</option>
+        <option>Entrega</option>
+        <option>Serviços farmacêuticos</option>
+      </select>
+    </div>
+    <div class="md:col-span-2">
+      <label for="mensagem" class="block mb-1 font-medium">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required class="w-full rounded border border-slate-300 px-3 py-2"></textarea>
+    </div>
+    <div class="md:col-span-2">
+      <button type="submit" class="rounded bg-emerald-600 px-5 py-2 text-white">Enviar mensagem</button>
+    </div>
+  </form>
+</div>

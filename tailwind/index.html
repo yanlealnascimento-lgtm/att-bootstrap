@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Farmácia Falida</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a id="btn-framework" href="../bootstrap/index.html">Ver em Bootstrap</a>
+
+<header data-slot="navbar"></header>
+
+<main>
+<section id="destaques" data-slot="carrossel" aria-label="Destaques"></section>
+<section id="servicos" data-slot="cards" aria-label="Serviços"></section>
+<section id="estoque" data-slot="tabela" aria-label="Estoque"></section>
+<section id="contato" data-slot="formulario" aria-label="Contato"></section>
+<section data-slot="modal" aria-label="Aviso importante"></section>
+</main>
+
+<footer data-slot="rodape"></footer>
+
+<script src="ui.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

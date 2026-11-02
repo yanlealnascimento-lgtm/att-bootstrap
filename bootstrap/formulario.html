@@ -1,0 +1,33 @@
+<div class="container py-5">
+  <h2 class="h4 mb-4">Fale com a farmácia</h2>
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="nome" class="form-label">Nome completo</label>
+      <input type="text" class="form-control" id="nome" name="nome" required>
+    </div>
+    <div class="col-md-6">
+      <label for="email" class="form-label">E-mail</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="col-md-6">
+      <label for="telefone" class="form-label">Telefone</label>
+      <input type="tel" class="form-control" id="telefone" name="telefone" required>
+    </div>
+    <div class="col-md-6">
+      <label for="assunto" class="form-label">Assunto</label>
+      <select class="form-select" id="assunto" name="assunto" required>
+        <option value="">Selecione</option>
+        <option>Dúvida sobre medicamento</option>
+        <option>Entrega</option>
+        <option>Serviços farmacêuticos</option>
+      </select>
+    </div>
+    <div class="col-12">
+      <label for="mensagem" class="form-label">Mensagem</label>
+      <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-success">Enviar mensagem</button>
+    </div>
+  </form>
+</div>

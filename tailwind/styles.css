@@ -1,0 +1,14 @@
+body { margin: 0; }
+
+#btn-framework {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 2000;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: #0f172a;
+  color: #fff;
+  text-decoration: none;
+  font: 600 14px system-ui, sans-serif;
+}
